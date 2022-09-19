@@ -1,0 +1,135 @@
+.post-box {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.post-box .header {
+    margin: 10px 0;
+    color: #888;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+}
+
+.post-box .header > div {
+    display: inline-block;
+}
+
+.post-box .header .img-box {
+    width: 15%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-box .header .img-box img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.post-box .header .posted-by {
+    width: 60%;
+}
+
+.post-box .header .post-date {
+    width: 25%;
+    text-align: right;
+}
+
+.post-box .post-content {
+    padding: 10px 15px;
+}
+
+.post-box .post-content h5 {
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2f4858;
+}
+
+.post-box .post-content hr {
+    border-color: #fff;
+}
+
+.post-box .post-content p {
+    color: #5d5d5d;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+}
+
+.post-box button {
+    color: #fff;
+    background-color: #2f4858;
+    border-radius: 5px;
+    padding: 8px 20px;
+    width: 15%;
+    float: right;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.post-box button:hover {
+    color: #2f4858;
+    background-color: #fff;
+    border-color: #2f4858;
+}
+
+.post-box .comment-section h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.post-box .comment-section h4 button.add-comment {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #32cd32;
+}
+
+.post-box .comment-section h4 button.add-comment:hover {
+    color: #32cd32;
+    background-color: #fff;
+    border-color: #32cd32;
+}
+
+.post-box .comment-section form {
+    width: 100%;
+    margin-bottom: 10px;
+    /* display: none; */
+}
+
+.post-box .comment-section form textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.post-box .comment-section hr {
+    border-color: #eee;
+    margin-top: 0;
+}
+
+.post-box .comment-section .comment:not(:last-of-type) {
+    border-bottom: 1px solid #eee;
+}

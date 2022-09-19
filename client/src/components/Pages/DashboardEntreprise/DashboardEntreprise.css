@@ -1,0 +1,202 @@
+.dash-company .content {
+    padding: 60px 0;
+    background: url("../../../images/header3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: calc(100vh - 61px);
+}
+
+.dash-company .content .main .quick-stats h2 {
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.dash-company .content .main .main-content {
+    border-radius: 5px;
+    padding: 20px 0;
+    margin-top: 20px;
+    position: relative;
+}
+
+.dash-company .content .main .main-content form input {
+    width: 50%;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 20px;
+    z-index: 2;
+    position: relative;
+    color: #828282;
+}
+
+.dash-company .content .main .main-content form button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 6%;
+    padding-right: 2%;
+    border-radius: 20px;
+    position: absolute;
+    left: 35%;
+    z-index: 1;
+    background-color: #a8724cc4;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.dash-company .content .main .main-content form button.active {
+    left: 45%;
+}
+
+.dash-company .content .main .main-content h2 {
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.dash-company .content .main .main-content .results-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}
+
+.dash-company .content .main .main-content .results-box .select {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-left: 12.5%;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.dash-company .content .main .main-content .results-box .select-box {
+    width: 30%;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #2f4858;
+    border: 1px solid #2f4858;
+    cursor: pointer;
+}
+
+.dash-company
+    .content
+    .main
+    .main-content
+    .results-box
+    .select-box
+    .svg-inline--fa {
+    margin-right: 10px;
+}
+
+.dash-company .content .main .main-content .results-box > hr {
+    border-color: #fff;
+    margin: 0 0 20px;
+}
+
+.dash-company .content .main .main-content .results-box .offers-container {
+    overflow: hidden;
+}
+
+.dash-company
+    .content
+    .main
+    .main-content
+    .results-box
+    .offers-container
+    .offre {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #2f4858;
+    background-color: #fff;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.dash-company
+    .content
+    .main
+    .main-content
+    .results-box
+    .offers-container
+    .offre
+    .employeur
+    img {
+    max-width: 100%;
+}
+
+.dash-company
+    .content
+    .main
+    .main-content
+    .results-box
+    .offers-container
+    .offre
+    .employeur
+    span {
+    font-size: 15px;
+}
+
+.dash-company .content .main .main-content .results-box .profile-container {
+    padding-bottom: 10px;
+}
+
+.dash-company .content .main .quick-stats .stat-box {
+    margin-right: 8.333%;
+}
+
+.dash-company .content .main .quick-stats .stats-box > .row {
+    margin-left: 0;
+}
+
+.dash-company .content .latest-review {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    height: 100%;
+}
+
+.dash-company .content .latest-review h4 {
+    font-size: 21px;
+    color: #2f4858;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+}
+
+.dash-company .content .latest-review hr {
+    border-color: #fff;
+    margin-bottom: 0;
+    width: 50%;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.dash-company .content .latest-review .review-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.dash-company .content .latest-review .review-box:not(:last-of-type) {
+    border-bottom: 1px solid #fff;
+}
+
+.dash-company .content .latest-review button {
+    width: 50%;
+    margin-left: 25%;
+    background-color: #2f4858;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}

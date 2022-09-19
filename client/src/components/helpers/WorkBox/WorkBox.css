@@ -1,0 +1,33 @@
+.exp-box {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.exp-box .title {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2f4858;
+}
+
+.exp-box .institution {
+    color: #ccc;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 17px;
+    width: 50%;
+    display: inline-block;
+}
+
+.exp-box .dates {
+    color: #ff8c00;
+    font-weight: bold;
+    float: right;
+}
+
+.exp-box p {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    margin-top: 10px;
+}

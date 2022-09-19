@@ -1,0 +1,634 @@
+.settings .delete-img,
+.settings .save-handler,
+.settings .delete-corsus,
+.settings .info-lang .ajout-lang,
+.settings .info-lang .ajout-skill,
+.settings .info-corsus .add-corsus,
+.settings .update-corsus,
+.settings .update-exp,
+.settings .info-exp .add-exp {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.settings .delete-img .delete-img-container,
+.settings .save-handler .save-container,
+.settings .delete-corsus .delete-corsus-container,
+.settings .info-lang .ajout-lang .ajout-lang-container,
+.settings .info-lang .ajout-skill .ajout-skill-container,
+.settings .info-corsus .add-corsus .add-corsus-container,
+.settings .update-corsus .update-corsus-container,
+.settings .update-exp .update-exp-container,
+.settings .info-exp .add-exp .add-exp-container {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+
+.settings .info-corsus .add-corsus .add-corsus-container,
+.settings .update-corsus .update-corsus-container,
+.settings .update-exp .update-exp-container,
+.settings .info-exp .add-exp .add-exp-container {
+    min-width: 30%;
+}
+
+.settings .delete-img .delete-img-container h4,
+.settings .save-handler .save-container h4,
+.settings .delete-corsus .delete-corsus-container h4,
+.settings .info-lang .ajout-lang .ajout-lang-container h4,
+.settings .info-lang .ajout-skill .ajout-skill-container h4,
+.settings .info-corsus .add-corsus .add-corsus-container h4,
+.settings .update-corsus .update-corsus-container h4,
+.settings .update-exp .update-exp-container h4,
+.settings .info-exp .add-exp .add-exp-container h4 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #3e5564;
+    font-size: 50px;
+    text-align: center;
+}
+
+.settings .update-corsus .update-corsus-container h4,
+.settings .update-exp .update-exp-container h4 {
+    font-size: 25px;
+}
+
+.settings .delete-img .delete-img-container h4,
+.settings .delete-corsus .delete-corsus-container h4 {
+    font-size: 30px;
+}
+
+.settings .delete-img .delete-img-container hr,
+.settings .save-handler .save-container hr,
+.settings .delete-corsus .delete-corsus-container hr,
+.settings .info-lang .ajout-lang .ajout-lang-container hr,
+.settings .info-lang .ajout-skill .ajout-skill-container hr,
+.settings .info-corsus .add-corsus .add-corsus-container hr,
+.settings .update-corsus .update-corsus-container hr,
+.settings .update-exp .update-exp-container hr,
+.settings .info-exp .add-exp .add-exp-container hr {
+    border-color: #fff;
+    margin-bottom: 20px !important;
+}
+
+.settings .delete-img .delete-img-container p,
+.settings .save-handler .save-container p,
+.settings .delete-corsus .delete-corsus-container p {
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.settings .delete-img .delete-img-container .buttons-container,
+.settings .save-handler .save-container .buttons-container,
+.settings .delete-corsus .delete-corsus-container .buttons-container {
+    width: 75%;
+    margin-left: 12.5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.settings .delete-img .delete-img-container .buttons-container button,
+.settings .save-handler .save-container .buttons-container button,
+.settings .delete-corsus .delete-corsus-container .buttons-container button {
+    width: 35%;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #3e5564;
+    border: none;
+    border: 1px solid #3e5564;
+    font-weight: bold;
+}
+
+.settings .info-lang .ajout-lang .ajout-lang-container,
+.settings .info-lang .ajout-skill .ajout-skill-container,
+.settings .info-corsus .add-corsus .add-corsus-container,
+.settings .update-corsus .update-corsus-container,
+.settings .update-exp .update-exp-container,
+.settings .info-exp .add-exp .add-exp-container {
+    position: relative;
+}
+
+.settings .info-lang .ajout-lang .ajout-lang-container .close-tab,
+.settings .info-lang .ajout-skill .ajout-skill-container .close-tab,
+.settings .info-corsus .add-corsus .add-corsus-container .close-tab,
+.settings .update-corsus .update-corsus-container .close-tab,
+.settings .update-exp .update-exp-container .close-tab,
+.settings .info-exp .add-exp .add-exp-container .close-tab {
+    position: absolute;
+    color: #fff;
+    top: -30px;
+    right: -20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.settings .info-lang .ajout-lang .ajout-lang-container form label,
+.settings .info-lang .ajout-skill .ajout-skill-container form label,
+.settings .info-corsus .add-corsus .add-corsus-container form label,
+.settings .update-corsus .update-corsus-container form label,
+.settings .update-exp .update-exp-container form label,
+.settings .info-exp .add-exp .add-exp-container form label {
+    display: block;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #5d5d5d;
+    font-weight: bold;
+}
+
+.settings .info-corsus .add-corsus .add-corsus-container form label.check-label,
+.settings .update-corsus .update-corsus-container form label.check-label,
+.settings .update-exp .update-exp-container form label.check-label {
+    display: inline;
+    font-size: 12px;
+}
+
+.settings .info-lang .ajout-lang .ajout-lang-container form select,
+.settings .info-lang .ajout-skill .ajout-skill-container form select,
+.settings .info-lang .ajout-skill .ajout-skill-container form input,
+.settings .info-corsus .add-corsus .add-corsus-container input,
+.settings .info-corsus .add-corsus .add-corsus-container select,
+.settings .update-corsus .update-corsus-container input,
+.settings .update-corsus .update-corsus-container select,
+.settings .update-exp .update-exp-container input,
+.settings .update-exp .update-exp-container select,
+.settings .info-exp .add-exp .add-exp-container form select,
+.settings .info-exp .add-exp .add-exp-container form input,
+.settings .info-exp .add-exp .add-exp-container form textarea {
+    display: block;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #5d5d5d;
+    padding: 8px 10px;
+    width: 75%;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.settings .info-corsus .add-corsus .add-corsus-container .check-box,
+.settings .update-corsus .update-corsus-container .check-box,
+.settings .info-exp .add-exp .add-exp-container .check-box,
+.settings .update-exp .update-exp-container .check-box {
+    display: inline-flex;
+    align-items: center;
+}
+
+.settings .info-corsus .add-corsus .add-corsus-container select.end,
+.settings .update-corsus .update-corsus-container select.end,
+.settings .info-exp .add-exp .add-exp-container select.end,
+.settings .update-exp .update-exp-container select.end {
+    display: inline-block;
+    width: 50%;
+}
+
+.settings .info-corsus .add-corsus .add-corsus-container input.checkbox,
+.settings .update-corsus .update-corsus-container input.checkbox,
+.settings .info-exp .add-exp .add-exp-container input.checkbox,
+.settings .update-exp .update-exp-container input.checkbox {
+    display: inline;
+    width: 25px;
+    height: 12px;
+}
+
+.settings .info-lang .ajout-lang .ajout-lang-container form select:focus,
+.settings .info-lang .ajout-skill .ajout-skill-container form select:focus,
+.settings .info-lang .ajout-skill .ajout-skill-container form input:focus,
+.settings .info-corsus .add-corsus .add-corsus-container form select:focus,
+.settings .info-corsus .add-corsus .add-corsus-container form input:focus,
+.settings .update-corsus .update-corsus-container form select:focus,
+.settings .update-corsus .update-corsus-container form input:focus,
+.settings .update-exp .update-exp-container form select:focus,
+.settings .update-exp .update-exp-container form input:focus,
+.settings .info-exp .add-exp .add-exp-container form select:focus,
+.settings .info-exp .add-exp .add-exp-container form input:focus,
+.settings .info-exp .add-exp .add-exp-container form textarea:focus {
+    border-color: #ff8c00;
+}
+
+.settings .info-lang .ajout-lang .ajout-lang-container form button,
+.settings .info-lang .ajout-skill .ajout-skill-container form button,
+.settings .info-corsus .add-corsus .add-corsus-container form button,
+.settings .update-corsus .update-corsus-container form button,
+.settings .update-exp .update-exp-container form button,
+.settings .info-exp .add-exp .add-exp-container form button {
+    background-color: #2f4858;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+.settings .settings-content {
+    padding: 40px 0;
+}
+
+.settings .settings-content .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.settings .settings-content h2 {
+    font-size: 30px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2f4858;
+    margin-bottom: 40px;
+}
+
+.settings .settings-content .big-box {
+    overflow: hidden;
+}
+
+.settings .settings-content .big-box .choices {
+    background-color: #ff8c00;
+    border: 1px solid #ff8c00;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 40px 60px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+}
+
+.settings .settings-content .big-box .choices ul {
+    list-style: disc;
+}
+
+.settings .settings-content .big-box .choices ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.settings .settings-content .big-box .infos {
+    background-color: #f7f7f7;
+    padding: 20px 60px;
+    border: 1px solid #ccc;
+}
+
+.settings .settings-content .big-box .infos h4 {
+    font-size: 25px;
+    letter-spacing: 1.1px;
+    font-weight: bold;
+    color: #2f4858;
+    margin-bottom: 20px;
+}
+
+.settings .settings-content .big-box .infos h4:nth-of-type(2n) {
+    margin-top: 40px;
+}
+
+.settings .settings-content .big-box .infos hr {
+    border-color: #fff;
+    margin: 10px 0 30px;
+}
+
+.settings .settings-content .big-box .infos h4 .svg-inline--fa {
+    margin-right: 10px;
+}
+
+.settings .settings-content .big-box .infos .img-box {
+    margin-bottom: 20px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.settings .settings-content .big-box .infos .img-box img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.settings .settings-content .big-box .infos .img-box .img-edit {
+    display: inline-block;
+}
+
+.settings .settings-content .big-box .infos .img-box .img-edit button,
+.settings .settings-content .big-box .infos .img-box .img-edit label {
+    padding: 8px 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.settings .settings-content .big-box .infos .img-box .img-edit input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.settings .settings-content .big-box .infos .img-box .img-edit label {
+    background-color: #2f4858;
+    color: #fff;
+    cursor: pointer;
+}
+
+.settings .settings-content .big-box .infos .img-box .img-edit button.remove {
+    color: #2f4858;
+    background-color: #fff;
+    border: 1px solid #2f4858;
+}
+
+.settings .settings-content .big-box .infos .bio {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.settings .settings-content .big-box .infos .bio label {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #5d5d5d;
+}
+
+.settings .settings-content .big-box .infos .bio textarea {
+    padding: 10px 20px;
+    border: 1px solid #2f4858;
+    background-color: #fff;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.1s ease-in-out;
+    color: #5d5d5d;
+}
+
+.settings .settings-content .big-box .infos .bio textarea:focus {
+    border-color: #ff8c00;
+}
+
+.settings .settings-content .big-box .infos form .info-box {
+    width: 48%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.settings
+    .settings-content
+    .big-box
+    .infos
+    form
+    .parent-box
+    .info-box:not(:nth-of-type(2n)) {
+    margin-right: 4%;
+}
+
+.settings .settings-content .big-box .infos form .info-box label {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #5d5d5d;
+}
+
+.settings .settings-content .big-box .infos form .info-box input,
+.settings .settings-content .big-box .infos form .info-box select {
+    padding: 10px 20px;
+    border: 1px solid #2f4858;
+    background-color: #fff;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.1s ease-in-out;
+    color: #5d5d5d;
+    min-height: 48px;
+}
+
+.settings .settings-content .big-box .infos form .info-box input:focus,
+.settings .settings-content .big-box .infos form .info-box select:focus {
+    border-color: #ff8c00;
+}
+
+.settings .settings-content .big-box .infos .save {
+    float: right;
+    background-color: #2f4858;
+    color: #fff;
+    border: 1px solid#fff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.settings .settings-content .big-box .infos .save:hover {
+    color: #2f4858;
+    background-color: #fff;
+    border-color: #2f4858;
+}
+
+.settings .settings-content .big-box .infos .save .svg-inline--fa {
+    margin-right: 10px;
+}
+
+.settings .settings-content .big-box .infos .add-btn {
+    color: #fff;
+    background-color: #2f4858;
+    padding: 8px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 5px 0 35px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.settings .settings-content .big-box .infos .add-btn .svg-inline--fa {
+    margin-right: 10px;
+}
+
+.settings .settings-content .big-box .infos .corsus-handler,
+.settings .settings-content .big-box .infos .exp-handler,
+.settings .settings-content .big-box .infos .lang-handler {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.settings .settings-content .big-box .infos .edu-box,
+.settings .settings-content .big-box .infos .exp-box {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ff8c00;
+    width: 90%;
+    display: inline-block;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.settings .settings-content .big-box .infos .corsus-handler .actions,
+.settings .settings-content .big-box .infos .exp-handler .actions {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.settings
+    .settings-content
+    .big-box
+    .infos
+    .corsus-handler
+    .actions
+    .svg-inline--fa,
+.settings
+    .settings-content
+    .big-box
+    .infos
+    .exp-handler
+    .actions
+    .svg-inline--fa {
+    cursor: pointer;
+}
+
+.settings .settings-content .big-box .infos .info-lang .lang-box,
+.settings .settings-content .big-box .infos .info-lang .skill-box {
+    overflow: hidden;
+}
+
+.settings .settings-content .big-box .infos .info-lang .add-btn {
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.settings .settings-content .big-box .infos .skill-lang-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.settings .settings-content .big-box .infos .lang-handler .lang {
+    background-color: #fff;
+    width: 60%;
+    color: #2f4858;
+    border: 1px solid #ff8c00;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    margin-right: 10%;
+}
+
+.settings .settings-content .big-box .infos .lang-handler .svg-inline--fa {
+    font-size: 20px;
+}
+
+.settings .settings-content .big-box .infos .info-contact .social-box label {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #5d5d5d;
+}
+
+.settings
+    .settings-content
+    .big-box
+    .infos
+    .info-contact
+    .social-box
+    label
+    .svg-inline--fa {
+    margin-right: 5px;
+}
+
+.settings .settings-content .big-box .infos .info-contact .social-box input {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    color: #5d5d5d;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.settings
+    .settings-content
+    .big-box
+    .infos
+    .info-contact
+    .social-box
+    input:focus {
+    border-color: #ff8c00;
+}
+
+@media (max-width: 575px) {
+    .settings-content > .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .settings-content .choices {
+        border-bottom-left-radius: 0 !important;
+        border-top-right-radius: 10px;
+    }
+
+    .settings-content .infos {
+        padding: 20px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .settings-content > .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .settings-content .choices {
+        border-bottom-left-radius: 0 !important;
+        border-top-right-radius: 10px;
+    }
+
+    .settings-content .infos {
+        padding: 20px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .settings-content .choices {
+        font-size: 16px !important;
+    }
+    .settings-content .infos {
+        padding: 20px 30px !important;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+}

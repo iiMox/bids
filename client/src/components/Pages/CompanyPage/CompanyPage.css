@@ -1,0 +1,284 @@
+.company-page .page-content {
+    padding: 40px 0;
+}
+
+.company-page .page-content .company-infos {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.company-page .page-content .company-infos .poster {
+    background-color: #fff;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.company-page .page-content .company-infos .poster .avatar-img {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    border: 1px solid #ccc;
+    position: absolute;
+    bottom: -45%;
+    left: 50px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.company-page .page-content .company-infos .poster .avatar-img img {
+    max-width: 100%;
+}
+
+.company-page .page-content .company-infos .left-box h2 {
+    margin: 80px 25px 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 35px;
+    color: #2f4858;
+    display: flex;
+    align-items: center;
+}
+
+.company-page .page-content .company-infos .left-box h2 .category {
+    margin-left: 25px;
+    font-size: 15px;
+    color: #5d5d5d;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #5d5d5d;
+}
+
+.company-page
+    .page-content
+    .company-infos
+    .left-box
+    h2
+    .category
+    .svg-inline--fa {
+    margin-right: 10px;
+}
+
+.company-page .page-content .company-infos .left-box p {
+    margin-left: 25px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #7a7a7a;
+}
+
+.company-page .page-content .company-infos .contact-info {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-page .page-content .company-infos .contact-info > ul {
+    color: #7a7a7a;
+}
+
+.company-page .page-content .company-infos .contact-info > ul li {
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.company-page .page-content .company-infos .contact-info > ul li a {
+    color: #7a7a7a;
+}
+
+.company-page .page-content .company-infos .contact-info > ul li.website-item {
+    transition: all 0.5s ease-in-out;
+}
+
+.company-page
+    .page-content
+    .company-infos
+    .contact-info
+    > ul
+    li.website-item:hover {
+    color: #2f4858;
+    cursor: pointer;
+}
+
+.company-page .page-content .company-infos .contact-info > ul li a {
+    transition: all 0.5s ease-in-out;
+}
+
+.company-page .page-content .company-infos .contact-info > ul li a:hover {
+    text-decoration: none;
+    color: #2f4858;
+}
+
+.company-page
+    .page-content
+    .company-infos
+    .contact-info
+    > ul
+    li
+    .svg-inline--fa {
+    margin-right: 10px;
+}
+
+.company-page .page-content .company-infos .contact-info .socials {
+    width: 50%;
+    font-size: 30px;
+}
+
+.company-page .page-content .company-infos .contact-info .socials ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.company-page .page-content .company-infos .contact-info .socials ul li {
+    transition: all 0.3s ease-in-out;
+}
+
+.company-page .page-content .company-infos .contact-info .socials ul li a {
+    color: #ff8c00;
+}
+
+.company-page .page-content .company-infos .contact-info .socials ul li:hover {
+    transform: scale(1.2);
+}
+
+.company-page .page-content .company-desc,
+.company-page .page-content .company-offers,
+.company-page .page-content .company-reviews {
+    margin: 40px 0;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.company-page .page-content .company-desc h4,
+.company-page .page-content .company-offers h4,
+.company-page .page-content .company-reviews h4 {
+    color: #2f4858;
+    background-color: #fff;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #ccc;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.company-page .page-content h4 .svg-inline--fa {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.company-page .page-content .company-desc p {
+    padding: 20px;
+    color: #7a7a7a;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+.company-page .page-content .company-offers .offers-container {
+    padding: 20px;
+}
+
+.company-page .page-content .company-offers .offers-container .offre {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.company-page
+    .page-content
+    .company-offers
+    .offers-container
+    .offre
+    .details
+    h3 {
+    font-size: 23px;
+}
+
+.company-page
+    .page-content
+    .company-offers
+    .offers-container
+    .offre
+    .details
+    p {
+    font-size: 15px;
+}
+
+.company-page
+    .page-content
+    .company-offers
+    .offers-container
+    .offre
+    .details
+    .bottom
+    button {
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.company-page
+    .page-content
+    .company-offers
+    .offers-container
+    .offre
+    .details
+    .bottom
+    .infos
+    span {
+    font-size: 14px;
+}
+
+.company-page .page-content .company-reviews .reviews-container {
+    padding: 20px 20px 0;
+}
+
+.company-page .page-content .company-reviews .reviews-container .review-box {
+    width: 49%;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.company-page
+    .page-content
+    .company-reviews
+    .reviews-container
+    .review-box:nth-of-type(2n + 1) {
+    margin-right: 2%;
+}
+
+.company-page
+    .page-content
+    .company-reviews
+    .reviews-container
+    .review-box
+    .img-box
+    img {
+    width: 64px;
+    height: 64px;
+}
+
+.company-page
+    .page-content
+    .company-reviews
+    .reviews-container
+    .review-box
+    .infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

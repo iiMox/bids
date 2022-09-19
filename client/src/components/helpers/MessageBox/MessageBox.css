@@ -1,0 +1,67 @@
+.messages-box {
+    padding: 0 10px;
+}
+.message-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.message-box.padding {
+    padding-bottom: 15px;
+}
+
+.message-box .left-side {
+    display: flex;
+}
+
+.message-box .img-box {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.message-box .img-box img {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.message-box .middle-side {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 75%;
+}
+
+.message-box .middle-side h6 {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #2f4858;
+}
+
+.message-box .middle-side p {
+    font-size: 14px;
+    padding-left: 5px;
+    /* height: 3em;
+    line-height: 1.5em; */
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-height: 1.5em; /* fallback */
+    max-height: 3em;
+    overflow: hidden;
+}
+
+.message-box .date-side {
+    font-size: 12px;
+    width: 30%;
+    font-weight: bold;
+    position: relative;
+}

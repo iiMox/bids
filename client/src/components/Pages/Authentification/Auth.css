@@ -1,0 +1,167 @@
+.authentification .logo {
+    background-color: #2f4858;
+    padding: 15px 0;
+}
+
+.authentification .logo a {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.authentification .logo a:hover {
+    text-decoration: none;
+}
+
+.authentification .content {
+    display: relative;
+    color: #2f4858;
+    overflow: hidden;
+    background: url("../../../images/header.jpg");
+    background-size: cover;
+}
+
+.authentification .content .switch {
+    width: 25%;
+    overflow: hidden;
+    background-color: #ff8c00;
+    border-radius: 50px;
+    margin: 80px auto;
+    position: relative;
+}
+
+.authentification .content .switch label {
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    margin-bottom: 0;
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.authentification .content .switch label:hover {
+    cursor: pointer;
+}
+
+.authentification .content .switch label.left {
+    padding-left: 15px;
+}
+
+.authentification .content .switch label.right {
+    padding-right: 15px;
+}
+
+.authentification .content .switch label.active {
+    color: #ff8c00;
+}
+
+.authentification .content .switch .switch-overlay {
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid #ff8c00;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.authentification .content .box {
+    border: 1px solid #ccc;
+    padding: 30px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.authentification .content .box h2 {
+    margin-bottom: 30px;
+}
+
+.authentification .content .box form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.authentification .content .box .password-box {
+    width: 48%;
+    display: inline-block;
+}
+
+.authentification .content .box .password-box:last-of-type {
+    margin-left: 4%;
+}
+
+.authentification .content .box form input,
+.authentification .content .box form select {
+    display: block;
+    padding: 5px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    color: #5d5d5d;
+    font-size: 16px;
+}
+
+.authentification .content .box form input:focus {
+    border: 1px solid #ff8c00;
+}
+
+.authentification .content .box form button {
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+    .authentification .content .switch {
+        width: 50%;
+    }
+    .authentification .content .box {
+        width: 75%;
+    }
+
+    .authentification .content .box h2 {
+        font-size: 25px;
+    }
+
+    .authentification .content .box form {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .authentification .content .switch {
+        width: 50%;
+    }
+
+    .authentification .content .switch label {
+        font-size: 13px;
+    }
+
+    .authentification .content .box h2 {
+        font-size: 20px;
+    }
+
+    .authentification .content .box form {
+        font-size: 13px;
+    }
+
+    .authentification .content .box form button {
+        width: 75%;
+    }
+}

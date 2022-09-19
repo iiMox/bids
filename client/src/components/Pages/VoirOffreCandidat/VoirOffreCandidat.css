@@ -1,0 +1,169 @@
+.offre-box {
+    margin: 100px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.offre-box > .row {
+    margin: 0;
+}
+
+.offre-box .side-info {
+    background-color: #fff;
+    padding: 0;
+    color: #5d5d5d;
+    border: 1px solid #2f4858;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.offre-box .side-info img {
+    border-radius: 50%;
+    margin: 10px 0;
+    border: 1px solid #fff;
+}
+
+.offre-box .side-info h4 {
+    color: #2f4858;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+}
+
+.offre-box .side-info hr {
+    border-color: #2f4858;
+}
+
+.offre-box .side-info p {
+    text-align: left;
+    margin: 20px 10px;
+    color: #5d5d5d;
+}
+.offre-box .side-info ul {
+    text-align: left;
+    margin: 20px 0 20px 20px;
+}
+
+.offre-box .side-info ul li {
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.offre-box .side-info ul li .svg-inline--fa {
+    margin-right: 10px;
+    color: #ff8c00;
+}
+
+.offre-box .side-info ul li a {
+    color: #5d5d5d;
+}
+
+.offre-box .side-info ul li a:hover {
+    text-decoration: none;
+}
+
+.offre-box .side-info .avis-section .review-box {
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+.offre-box .side-info .avis-section .review-box .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.offre-box .side-info .avis-section .review-box .img-box {
+    max-width: 32%;
+}
+
+.offre-box .side-info .avis-section .review-box .img-box img {
+    width: 64px;
+    height: 64px;
+    border: 1px solid #ccc;
+}
+
+.offre-box .side-info .avis-section .review-box .infos {
+    max-width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.offre-box .side-info .avis-section .review-box p {
+    font-size: 14px;
+}
+
+.offre-box .offre-info {
+    padding: 10px 20px;
+    background-color: #2f4858;
+    color: #fff;
+}
+
+.offre-box .offre-info h2 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 40px;
+    text-transform: capitalize;
+    /* color: #2f4858; */
+    margin: 40px 0 10px;
+}
+
+.offre-box .offre-info h2.offre-titre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offre-box .offre-info h2.offre-titre button {
+    background-color: #ff8c00;
+    border: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+.offre-box .offre-info h2.offre-titre button:hover {
+    background-color: #fff;
+    color: #2f4858;
+}
+
+.offre-box .offre-info h2.offre-titre button .svg-inline--fa {
+    margin-right: 10px;
+}
+
+.offre-box .offre-info hr {
+    border-color: #fff;
+    margin-bottom: 5px;
+}
+
+.offre-box .offre-info ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offre-box .offre-info ul li {
+    display: inline;
+    text-transform: unset;
+    font-weight: bold;
+    /* color: #5d5d5d; */
+    letter-spacing: 0.8px;
+}
+
+.offre-box .offre-info .description {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #5d5d5d;
+    padding: 15px 20px;
+    border-radius: 5px;
+}

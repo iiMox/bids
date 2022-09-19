@@ -1,0 +1,294 @@
+.profil .content {
+    padding: 40px 0;
+}
+
+.profil .content h2 {
+    font-size: 30px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2f4858;
+    margin-bottom: 20px;
+}
+
+.profil .content .big-box {
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+}
+
+.profil .content .big-box .personel-info {
+    background-color: #2f4858;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.profil .content .big-box .personel-info img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-left: calc(50% - 32px);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.profil .content .big-box .personel-info h4 {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.profil .content .big-box .personel-info p {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    margin: 15px 20px;
+}
+
+.profil .content .big-box .personel-info .social {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.profil .content .big-box .personel-info .social ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profil .content .big-box .personel-info .social ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.profil .content .big-box .personel-info .social ul li a {
+    color: #fff;
+}
+
+.profil .content .big-box .personel-info .social ul li .svg-inline--fa {
+    font-size: 25px;
+}
+
+.profil .content .big-box .personel-info .info-box {
+    border-top: 1px solid#fff;
+    padding: 40px 20px 20px;
+    margin-top: 20px;
+}
+
+.profil .content .big-box .personel-info .info-box .one-box {
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+}
+
+.profil .content .big-box .personel-info .info-box .one-box .svg-inline--fa {
+    margin-right: 10px;
+}
+
+.profil .content .big-box .personel-info .info-box .langs,
+.profil .content .big-box .personel-info .info-box .skills {
+    margin-top: 40px;
+}
+
+.profil .content .big-box .personel-info .info-box .langs h5,
+.profil .content .big-box .personel-info .info-box .skills h5 {
+    letter-spacing: 1px;
+}
+
+.profil .content .big-box .personel-info .info-box .langs ul,
+.profil .content .big-box .personel-info .info-box .skills ul {
+    margin-top: 15px;
+}
+
+.profil .content .big-box .personel-info .info-box .langs ul li,
+.profil .content .big-box .personel-info .info-box .skills ul li {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.profil .content .big-box .personel-info .button-holder {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.profil .content .big-box .personel-info button {
+    color: #fff;
+    background-color: #ff8c00;
+    font-size: 18px;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 5px 30px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.profil .content .big-box .personel-info .animation-box {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    margin-right: 10px;
+}
+
+.profil .content .big-box .personel-info .animation-box .svg-inline--fa {
+    margin-right: 10px;
+    position: absolute;
+    animation: download 1s ease-in-out 0s infinite;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* color: #ff8c00; */
+}
+
+@keyframes download {
+    from {
+        top: 40%;
+    }
+    to {
+        top: 60%;
+    }
+}
+
+.profil .content .big-box .profesionel-info {
+    padding: 20px;
+}
+
+.profil .content .big-box .profesionel-info .edu {
+    margin-bottom: 50px;
+}
+
+.profil .content .big-box .profesionel-info .edu h4,
+.profil .content .big-box .profesionel-info .exp h4 {
+    font-size: 30px;
+    color: #2f4858;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.profil .content .big-box .profesionel-info .edu h4 .svg-inline--fa,
+.profil .content .big-box .profesionel-info .exp h4 .svg-inline--fa {
+    margin-right: 15px;
+}
+
+.profil .content .big-box .profesionel-info .edu hr,
+.profil .content .big-box .profesionel-info .exp hr {
+    background-color: #2f4858;
+}
+
+@media (max-width: 575px) {
+    .profil .content h2 {
+        text-align: center;
+    }
+    .profil .content .big-box {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .profil .content .big-box .personel-info p {
+        width: 85%;
+        margin-left: 7.5%;
+    }
+
+    .profil .content .big-box .personel-info .info-box .one-box {
+        text-align: center;
+    }
+
+    .profil .content .big-box .personel-info .info-box .extra-box {
+        display: flex;
+    }
+
+    .profil .content .big-box .personel-info .info-box .langs,
+    .profil .content .big-box .personel-info .info-box .skills {
+        width: 48%;
+        display: inline-block;
+    }
+
+    .profil .content .big-box .personel-info .info-box .langs {
+        margin-right: 4%;
+        position: relative;
+    }
+
+    .profil .content .big-box .personel-info .info-box .langs::after {
+        content: "";
+        background-color: #fff;
+        width: 2px;
+        height: 40%;
+        border-radius: 5px;
+        position: absolute;
+        top: 30%;
+        right: -2%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .profil .content h2 {
+        text-align: center;
+    }
+    .profil .content .big-box {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .profil .content .big-box .personel-info p {
+        width: 85%;
+        margin-left: 7.5%;
+    }
+
+    .profil .content .big-box .personel-info .info-box .one-box {
+        text-align: center;
+    }
+
+    .profil .content .big-box .personel-info .info-box .extra-box {
+        display: flex;
+    }
+
+    .profil .content .big-box .personel-info .info-box .langs,
+    .profil .content .big-box .personel-info .info-box .skills {
+        width: 48%;
+        display: inline-block;
+    }
+
+    .profil .content .big-box .personel-info .info-box .langs {
+        margin-right: 4%;
+        position: relative;
+    }
+
+    .profil .content .big-box .personel-info .info-box .langs::after {
+        content: "";
+        background-color: #fff;
+        width: 2px;
+        height: 40%;
+        border-radius: 5px;
+        position: absolute;
+        top: 30%;
+        right: -2%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .profil .content .big-box .personel-info .button-holder {
+        width: 75%;
+        margin-left: 12.5%;
+        margin-top: 30px;
+    }
+    .profil .content .big-box .personel-info button {
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .profil .content .big-box .personel-info .button-holder {
+        width: 75%;
+        margin-left: 12.5%;
+        margin-top: 30px;
+    }
+    .profil .content .big-box .personel-info button {
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+}

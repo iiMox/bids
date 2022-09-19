@@ -1,0 +1,77 @@
+.message-panel {
+    position: fixed;
+    bottom: 0;
+    right: -1px;
+    min-width: 300px;
+    max-width: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: 1;
+    overflow: visible;
+}
+
+.message-panel .header {
+    background-color: #2f4858;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #2f4858;
+    cursor: pointer;
+}
+
+.message-panel .header h4 {
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    margin: 0 auto;
+}
+
+.message-panel .body {
+    border-left: 1px solid #ccc;
+    height: calc(100vh - 120px);
+    background-color: #f7f7f7;
+    transition: all 1s ease-in-out;
+    height: 0;
+    overflow: auto;
+}
+
+.message-panel .body.show {
+    height: calc(100vh - 120px);
+}
+
+.message-panel .body form {
+    position: relative;
+}
+
+.message-panel .body form input {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #fff;
+    border: none;
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    color: #5d5d5d;
+    border-radius: 20px;
+    margin-top: 20px;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.message-panel .body form input:focus {
+    border-color: #ff8c00;
+}
+
+.message-panel .body form .search-icon {
+    position: absolute;
+    top: 30px;
+    color: #5d5d5d;
+    right: 10%;
+    opacity: 0.5;
+}
+
+.message-panel .body hr {
+    width: 95%;
+    border-color: #fff;
+}

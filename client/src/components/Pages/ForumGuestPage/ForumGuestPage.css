@@ -1,0 +1,9 @@
+.forum-guest nav {
+    background-color: #2f4858;
+    position: static;
+}
+
+.forum-guest h2 {
+    color: #2f4858;
+    margin-bottom: 20px;
+}

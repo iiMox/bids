@@ -1,0 +1,413 @@
+.dash-nav .logout-container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-nav .logout-container .logout-box {
+    background-color: rgba(231, 37, 37, 0.9);
+    padding: 20px 30px 30px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.dash-nav .logout-container .logout-box .icon-container {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.dash-nav .logout-container .logout-box .buttons-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.dash-nav .logout-container .logout-box .buttons-container button {
+    background-color: #fff;
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    color: #e72525;
+    font-weight: bold;
+    padding: 8px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.dash-nav .logout-container .logout-box .buttons-container button:hover {
+    transform: translateY(-10px);
+}
+
+.dash-nav .logout-container .logout-box .buttons-container button:last-of-type {
+    margin-left: 10%;
+}
+
+.dash-nav
+    .logout-container
+    .logout-box
+    .buttons-container
+    button
+    .svg-inline--fa {
+    margin-right: 10px;
+}
+
+.dash-nav .dash-container {
+    background-color: #f7f7f7;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    transition: all 0.5s ease-in-out;
+    color: #5d5d5d;
+}
+
+.dash-nav .row {
+    margin: 0;
+}
+
+.dash-nav .logo,
+.dash-nav .receive-box,
+.dash-nav .profile {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.dash-nav .holder-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dash-nav .receive-box,
+.dash-nav .profile {
+    display: inline-flex;
+}
+
+.dash-nav .receive-box {
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.dash-nav .receive-box .notifications {
+    position: relative;
+}
+
+.dash-nav .receive-box .notifications .drop-notif {
+    position: absolute;
+    top: 40px;
+    right: -2px;
+    width: 300px;
+    border: 1px solid #435a68;
+    background-color: rgba(47, 72, 88, 0.9);
+    color: #fff;
+    display: none;
+    border-radius: 5px 0px 5px 5px;
+    z-index: 2;
+    padding: 5px 10px;
+}
+
+.dash-nav .receive-box .notifications .drop-notif::before {
+    content: "";
+    position: absolute;
+    border-width: 10px;
+    border-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: rgba(47, 72, 88, 0.9);
+    top: -21px;
+    right: -1px;
+}
+
+.dash-nav .receive-box .notifications .drop-notif h6 {
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    margin: 5px 0 0;
+}
+
+.dash-nav .receive-box .notifications .drop-notif hr {
+    border-color: #fff;
+    margin-top: 10px;
+}
+
+.dash-nav .receive-box .messages {
+    margin-left: 20px;
+    position: relative;
+}
+
+.dash-nav .receive-box .notifications span.num,
+.dash-nav .receive-box .messages span.num {
+    position: absolute;
+    font-size: 0.6em;
+    font-weight: bold;
+    top: -5px;
+    right: -5px;
+    color: #fff;
+    background-color: #ff8c00;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash-nav .receive-box .messages .drop-msg {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 300px;
+    padding: 5px 10px 10px;
+    border: 1px solid #435a68;
+    background-color: rgba(47, 72, 88, 0.9);
+    color: #fff;
+    display: none;
+    border-radius: 5px 0px 5px 5px;
+    z-index: 2;
+}
+
+.dash-nav .receive-box .messages .drop-msg h6 {
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    margin: 5px 0 0;
+}
+
+.dash-nav .receive-box .messages .drop-msg hr {
+    border-color: #fff;
+    margin-top: 10px;
+}
+
+.dash-nav .receive-box .messages .drop-msg .msg-notifs-body {
+    max-height: 250px;
+    overflow: auto;
+}
+.dash-nav .receive-box .messages .drop-msg ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.dash-nav .receive-box .messages .drop-msg ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.dash-nav .receive-box .messages .drop-msg ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #ff8c00;
+}
+
+.dash-nav .receive-box .messages .drop-msg::before {
+    content: "";
+    position: absolute;
+    border-width: 10px;
+    border-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: rgba(47, 72, 88, 0.9);
+    top: -21px;
+    right: -1px;
+}
+
+.dash-nav .receive-box .svg-inline--fa {
+    font-size: 20px;
+    cursor: pointer;
+    color: #2f4858;
+}
+
+.dash-nav .profile {
+    position: relative;
+    justify-content: flex-end;
+    min-width: 150px;
+}
+
+.dash-nav .profile:before {
+    content: "";
+    background-color: #ff8c00;
+    width: 1px;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: -3px;
+}
+
+.dash-nav .profile .img-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 13px;
+}
+
+.dash-nav .profile .img-box img {
+    width: 40px;
+}
+
+.dash-nav .profile .user-info {
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    font-weight: bold;
+    margin-left: 13px;
+    position: relative;
+    cursor: pointer;
+}
+
+.dash-nav .profile .user-info:after {
+    content: "";
+    position: absolute;
+    border-width: 7px;
+    border-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: #5d5d5d;
+    top: 10px;
+    right: -22px;
+    transform: rotate(180deg);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.dash-nav .profile .drop-info {
+    position: absolute;
+    top: 50px;
+    right: -21px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    display: none;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.dash-nav .profile .drop-info ul {
+    margin-bottom: 0;
+}
+
+.dash-nav .profile .drop-info ul li a {
+    padding: 10px 33px;
+    cursor: pointer;
+    letter-spacing: 0.8px;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 1px solid #eee;
+    color: #5d5d5d;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+}
+
+.dash-nav .profile .drop-info ul li a:hover {
+    color: #fff;
+    background-color: #ff8c00;
+}
+
+.dash-nav .profile .drop-info .drop-bottom .settings,
+.dash-nav .profile .drop-info .drop-bottom .sign-out {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.dash-nav .profile .drop-info .drop-bottom .settings {
+    border-right: 1px solid #eee;
+}
+
+.dash-nav .profile .drop-info .drop-bottom a {
+    color: #5d5d5d;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.dash-nav .profile .drop-info .drop-bottom .settings:hover {
+    background-color: #2f4858;
+}
+
+.dash-nav .profile .drop-info .drop-bottom a .settings:hover {
+    color: #fff;
+}
+
+.dash-nav .profile .drop-info .drop-bottom .sign-out:hover {
+    background-color: #e72525;
+    color: #fff;
+}
+
+@media (max-width: 575px) {
+    .dash-nav .container {
+        padding: 0 15px;
+    }
+    .dash-nav .logo {
+        width: 39%;
+    }
+
+    .dash-nav .receive-box {
+        width: 25%;
+    }
+
+    .dash-nav .receive-box .messages .drop-msg,
+    .dash-nav .receive-box .notifications .drop-notif {
+        width: 200px;
+    }
+
+    .dash-nav .profile {
+        width: 35%;
+    }
+
+    .dash-nav .profile .user-info {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .dash-nav .logo {
+        width: 39%;
+    }
+
+    .dash-nav .receive-box {
+        width: 25%;
+    }
+
+    .dash-nav .receive-box .messages .drop-msg,
+    .dash-nav .receive-box .notifications .drop-notif {
+        width: 300px;
+    }
+
+    .dash-nav .profile {
+        width: 35%;
+    }
+
+    .dash-nav .profile .user-info {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .dash-nav .receive-box {
+        margin-left: 35%;
+    }
+    .dash-nav .profile .user-info {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .dash-nav .receive-box {
+        margin-left: 35%;
+    }
+    .dash-nav .profile {
+        margin-right: 5%;
+    }
+    .dash-nav .profile .user-info {
+        font-size: 15px;
+    }
+}

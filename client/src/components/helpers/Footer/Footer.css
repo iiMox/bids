@@ -1,0 +1,135 @@
+footer {
+    background-color: #f7f7f7;
+    color: #2f4858;
+    padding-top: 40px;
+}
+
+footer .useful-links {
+    margin-bottom: 20px;
+}
+
+footer .useful-links .desc {
+    position: relative;
+}
+
+footer .useful-links .desc::after {
+    content: "";
+    background-color: #fff;
+    height: 80%;
+    width: 2px;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    display: block;
+}
+
+footer .useful-links .desc img {
+    margin-bottom: 15px;
+    margin-left: -6px;
+}
+
+footer .useful-links .desc p {
+    line-height: 25px;
+    letter-spacing: 1.1px;
+}
+
+footer .useful-links .links {
+    width: 100%;
+}
+
+footer .useful-links .links::after {
+    content: "";
+    background-color: #fff;
+    height: 80%;
+    width: 2px;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    display: block;
+}
+
+footer .useful-links .newsletter {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+footer .useful-links .newsletter h4 {
+    margin-bottom: 20px;
+}
+
+footer .useful-links .newsletter p {
+    line-height: 25px;
+    letter-spacing: 1.1px;
+}
+
+footer .useful-links .newsletter form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    outline: none;
+    color: #2f4858;
+}
+
+footer .useful-links .newsletter form button {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 575px) {
+    footer .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    footer .useful-links .row > div {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+
+    footer .useful-links .desc::after,
+    footer .useful-links .links::after {
+        top: 100%;
+        right: 40%;
+        width: 30%;
+        height: 5px;
+    }
+
+    footer .useful-links .newsletter {
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    footer .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    footer .useful-links .row > div {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+
+    footer .useful-links .desc::after,
+    footer .useful-links .links::after {
+        top: 100%;
+        right: 40%;
+        width: 30%;
+        height: 5px;
+    }
+
+    footer .useful-links .newsletter {
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 768px) {
+}

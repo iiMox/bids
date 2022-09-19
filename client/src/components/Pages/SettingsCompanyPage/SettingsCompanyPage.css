@@ -1,0 +1,447 @@
+.settings-company .save-handler,
+.settings-company .delete-img {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.settings-company .save-handler .save-container,
+.settings-company .delete-img .delete-img-container {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+
+.settings-company .save-handler .save-container h4,
+.settings-company .delete-img .delete-img-container h4 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #3e5564;
+    font-size: 50px;
+    text-align: center;
+}
+
+.settings-company .save-handler .save-container hr,
+.settings-company .delete-img .delete-img-container hr {
+    border-color: #fff;
+    margin-bottom: 20px !important;
+}
+
+.settings-company .save-handler .save-container p,
+.settings-company .delete-img .delete-img-container p {
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.settings-company .save-handler .save-container .buttons-container,
+.settings-company .delete-img .delete-img-container .buttons-container {
+    width: 75%;
+    margin-left: 12.5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.settings-company .save-handler .save-container .buttons-container button,
+.settings-company .delete-img .delete-img-container .buttons-container button {
+    width: 35%;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #3e5564;
+    border: none;
+    border: 1px solid #3e5564;
+    font-weight: bold;
+}
+
+.settings-company .settings-content {
+    padding: 40px 0;
+}
+
+.settings-company .settings-content .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.settings-company .settings-content h2 {
+    font-size: 30px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2f4858;
+    margin-bottom: 40px;
+}
+
+.settings-company .settings-content .big-box {
+    overflow: hidden;
+}
+
+.settings-company .settings-content .big-box .choices {
+    background-color: #ff8c00;
+    border: 1px solid #ff8c00;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 40px 60px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+}
+
+.settings-company .settings-content .big-box .choices ul {
+    list-style: disc;
+}
+
+.settings-company .settings-content .big-box .choices ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.settings-company .settings-content .big-box .infos {
+    background-color: #f7f7f7;
+    padding: 20px 60px;
+    border: 1px solid #ccc;
+}
+
+.settisettings-companyngs .settings-content .big-box .infos .img-box .img-edit {
+    display: inline-block;
+}
+
+.settings-company .settings-content .big-box .infos .img-box .img-edit button,
+.settings-company .settings-content .big-box .infos .img-box .img-edit label {
+    padding: 8px 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.settings-company .settings-content .big-box .infos .img-box .img-edit input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.settings-company .settings-content .big-box .infos .img-box .img-edit label {
+    background-color: #2f4858;
+    color: #fff;
+    cursor: pointer;
+}
+
+.settings-company
+    .settings-content
+    .big-box
+    .infos
+    .img-box
+    .img-edit
+    button.remove {
+    color: #2f4858;
+    background-color: #fff;
+    border: 1px solid #2f4858;
+}
+
+.settings-company .settings-content .big-box .infos h4 {
+    font-size: 25px;
+    letter-spacing: 1.1px;
+    font-weight: bold;
+    color: #2f4858;
+    margin-bottom: 20px;
+}
+
+.settings-company .settings-content .big-box .infos h4:nth-of-type(2n) {
+    margin-top: 40px;
+}
+
+.settings-company .settings-content .big-box .infos hr {
+    border-color: #fff;
+    margin: 10px 0 30px;
+}
+
+.settings-company .settings-content .big-box .infos h4 .svg-inline--fa {
+    margin-right: 10px;
+}
+
+.settings-company .settings-content .big-box .infos .img-box {
+    margin-bottom: 20px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.settings-company .settings-content .big-box .infos .img-box img {
+    width: 128px;
+    height: 128px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.settings-company .settings-content .big-box .infos .img-box .img-edit {
+    display: inline-block;
+}
+
+.settings-company .settings-content .big-box .infos .img-box .img-edit button {
+    padding: 8px 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.settings-company
+    .settings-content
+    .big-box
+    .infos
+    .img-box
+    .img-edit
+    button.upload {
+    background-color: #2f4858;
+    color: #fff;
+}
+
+.settings-company
+    .settings-content
+    .big-box
+    .infos
+    .img-box
+    .img-edit
+    button.remove {
+    color: #2f4858;
+    background-color: #fff;
+    border: 1px solid #2f4858;
+}
+
+.settings-company .settings-content .big-box .infos .bio {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.settings-company .settings-content .big-box .infos .bio label {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #5d5d5d;
+}
+
+.settings-company .settings-content .big-box .infos .bio textarea {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    color: #5d5d5d;
+}
+.settings-company
+    .settings-content
+    .big-box
+    .infos
+    .bio
+    textarea:first-of-type {
+    margin-bottom: 20px;
+}
+
+.settings-company .settings-content .big-box .infos .bio textarea:last-of-type {
+    min-height: 100px;
+}
+
+.settings-company .settings-content .big-box .infos .bio textarea:focus {
+    border-color: #ff8c00;
+}
+
+.settings-company .settings-content .big-box .infos form .info-box {
+    width: 48%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.settings-company
+    .settings-content
+    .big-box
+    .infos
+    form
+    .parent-box
+    .info-box:not(:nth-of-type(2n)) {
+    margin-right: 4%;
+}
+
+.settings-company .settings-content .big-box .infos form .info-box label {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #5d5d5d;
+}
+
+.settings-company .settings-content .big-box .infos form .info-box input {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    color: #5d5d5d;
+}
+
+.settings-company .settings-content .big-box .infos form .info-box input:focus {
+    border-color: #ff8c00;
+}
+
+.settings-company .settings-content .big-box .infos form .info-box select {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    color: #5d5d5d;
+}
+
+.settings-company
+    .settings-content
+    .big-box
+    .infos
+    form
+    .info-box
+    select:focus {
+    border-color: #ff8c00;
+}
+
+.settings-company .settings-content .big-box .infos .save {
+    float: right;
+    background-color: #2f4858;
+    color: #fff;
+    border: 1px solid#fff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.settings-company .settings-content .big-box .infos .save:hover {
+    color: #2f4858;
+    background-color: #fff;
+    border-color: #2f4858;
+}
+
+.settings-company .settings-content .big-box .infos .save .svg-inline--fa {
+    margin-right: 10px;
+}
+
+.settings-company
+    .settings-content
+    .big-box
+    .infos
+    .info-contact
+    .social-box
+    label {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #5d5d5d;
+}
+
+.settings-company
+    .settings-content
+    .big-box
+    .infos
+    .info-contact
+    .social-box
+    label
+    .svg-inline--fa {
+    margin-right: 5px;
+}
+
+.settings-company
+    .settings-content
+    .big-box
+    .infos
+    .info-contact
+    .social-box
+    input {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    color: #5d5d5d;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.settings-company
+    .settings-content
+    .big-box
+    .infos
+    .info-contact
+    .social-box
+    input:focus {
+    border-color: #ff8c00;
+}
+
+@media (max-width: 575px) {
+    .settings-content > .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .settings-content .choices {
+        border-bottom-left-radius: 0 !important;
+        border-top-right-radius: 10px;
+    }
+
+    .settings-content .infos {
+        padding: 20px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .settings-content > .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .settings-content .choices {
+        border-bottom-left-radius: 0 !important;
+        border-top-right-radius: 10px;
+    }
+
+    .settings-content .infos {
+        padding: 20px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .settings-content .choices {
+        font-size: 16px !important;
+    }
+    .settings-content .infos {
+        padding: 20px 30px !important;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+}

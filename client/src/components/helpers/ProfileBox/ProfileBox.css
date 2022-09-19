@@ -1,0 +1,75 @@
+.profile-box {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #2f4858;
+    background-color: #fff;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.profile-box .img-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.profile-box .img-holder::after {
+    content: "";
+    width: 2px;
+    background-color: #2f4858;
+    height: 75%;
+    position: absolute;
+    top: 12.5%;
+    right: -20%;
+}
+
+.profile-box .img-holder img {
+    max-width: 75%;
+}
+
+.profile-box .applicant-infos h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2f4858;
+    letter-spacing: 0.8px;
+}
+
+.profile-box .applicant-infos h5 span {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #5d5d5d;
+    margin-left: 10px;
+}
+
+.profile-box .applicant-infos button {
+    background-color: #f1ece699;
+    color: #d98326;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.profile-box .applicant-infos .svg-inline--fa {
+    font-size: 15px;
+}
+
+.profile-box .applicant-infos > div {
+    margin-bottom: 5px;
+}
+
+.profile-box .applicant-infos > div > div {
+    display: inline-flex;
+    justify-content: center;
+    margin-right: 10px;
+    width: 20px;
+}

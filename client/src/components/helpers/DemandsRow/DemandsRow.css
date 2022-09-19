@@ -1,0 +1,58 @@
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+tr:hover {
+    background-color: #f7f7f7;
+}
+
+tr td {
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    max-width: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+tr td:not(:first-of-type):not(:last-of-type) {
+    border-left: 1px solid #ccc;
+}
+
+tr td:last-of-type {
+    width: 100px;
+}
+
+tr td:nth-of-type(2),
+tr td:first-of-type {
+    cursor: pointer;
+}
+
+tr td:last-of-type {
+    padding-right: 20px;
+}
+
+tr td.green {
+    color: #32cd32;
+    letter-spacing: 0.8px;
+}
+
+tr td.red {
+    color: red;
+    letter-spacing: 0.8px;
+}
+
+tr td .icon-handler {
+    float: right;
+    color: #3e5564;
+    display: none;
+}
+
+tr td .icon-handler .svg-inline--fa {
+    cursor: pointer;
+}
+
+tr td .icon-handler .svg-inline--fa:first-of-type {
+    margin-right: 15px;
+}

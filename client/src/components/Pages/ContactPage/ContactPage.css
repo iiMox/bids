@@ -1,0 +1,81 @@
+.contact-page nav {
+    background-color: #2f4858;
+    position: static;
+}
+
+.contact-page .content {
+    color: #2f4858;
+    padding: 40px 0;
+}
+
+.contact-page .content h2 {
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.contact-page .content p {
+    letter-spacing: 1.1px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-page .content form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.contact-page .content form label {
+    display: block;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.contact-page .content form input,
+.contact-page .content form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    outline: none;
+    color: #2f4858;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-page .content form textarea {
+    min-height: 100px;
+}
+
+.contact-page .content form input:focus,
+.contact-page .content form textarea:focus {
+    border-color: #ff8c00;
+}
+
+.contact-page .content form button {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    padding: 8px 0;
+    border-radius: 5px;
+    width: 25%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    margin-top: 10px;
+    margin-left: 37.5%;
+}
+
+@media (max-width: 575px) {
+    .contact-page .content form button {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .contact-page .content form button {
+        width: 35%;
+        margin-left: 32.5%;
+    }
+}

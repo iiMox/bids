@@ -1,0 +1,2 @@
+/api/* https://bids.cyclic.app/api/:splat 200
+/* /index.html 200

@@ -1,0 +1,68 @@
+.comment {
+    padding: 0 10px 20px;
+    margin-bottom: 20px;
+}
+
+.comment .img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment .img-box img {
+    width: 64px;
+    height: 64px;
+}
+
+.comment .side-content h6 {
+    color: #2f4858;
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment .side-content h6 .actions-div span {
+    font-size: 15px;
+    color: #5e5e5e;
+    cursor: pointer;
+}
+
+.comment .side-content h6 .actions-div span:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+.comment .side-content hr {
+    border-color: #fff;
+    margin-bottom: 10px;
+}
+
+.comment .side-content p {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    color: #5d5d5d;
+    word-break: break-all;
+    margin-bottom: 10px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.comment .side-content p.bordered {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.comment .side-content .date-posted {
+    color: #ff8c00;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}

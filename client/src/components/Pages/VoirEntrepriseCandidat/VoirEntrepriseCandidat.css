@@ -1,0 +1,81 @@
+.company-page h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company-page .actions {
+    width: 50%;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+.company-page .actions .follow-action {
+    background-color: #2f4858;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #2f4858;
+}
+
+.company-page .actions .follow-action.done {
+    color: #2f4858;
+    background-color: #fff;
+    border-color: #2f4858;
+}
+
+.company-page .actions .follow-action .svg-inline--fa {
+    margin-right: 10px;
+}
+
+.company-page .actions > div {
+    width: 40%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    padding: 5px 15px;
+}
+
+.company-page h4 button {
+    float: right;
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    background-color: #32cd32;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #32cd32;
+    display: flex;
+    align-items: center;
+}
+
+.company-page h4 button:hover {
+    color: #32cd32;
+    background-color: #fff;
+    border: 1px solid #32cd32;
+}
+
+.send-message {
+    font-size: 15px;
+    background-color: #ff8c00;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #ff8c00;
+}
+
+.send-message:hover {
+    color: #ff8c00;
+    background-color: #fff;
+    border: 1px solid #ff8c00;
+}

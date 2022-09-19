@@ -1,0 +1,91 @@
+.offre {
+    background-color: #f7f7f7;
+    color: #2f4858;
+    border-radius: 3px;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.offre .employeur {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.offre .employeur img {
+    margin-bottom: 10px;
+    width: 96px;
+    border-radius: 50%;
+}
+
+.offre .employeur span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.offre .details h3 {
+    letter-spacing: 1.1px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.offre .details hr {
+    background-color: #ff8c00;
+    width: 100%;
+}
+
+.offre .details p {
+    letter-spacing: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 100px;
+}
+
+.offre .details .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    letter-spacing: 1px;
+}
+
+.offre .details .bottom .infos span {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.offre .details .bottom .infos span img {
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+
+.offre .details .bottom button {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    float: right;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 575px) {
+    .offre .details .bottom .infos span {
+        font-size: 14px;
+    }
+    .offre .details .bottom button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .offre .details .bottom .infos span {
+        font-size: 14px;
+    }
+    .offre .details .bottom button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}

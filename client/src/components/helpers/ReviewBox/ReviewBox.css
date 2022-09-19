@@ -1,0 +1,45 @@
+.review-box {
+    padding: 10px 0;
+}
+
+.review-box .img-box {
+    display: flex;
+    align-items: center;
+}
+.review-box .img-box img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.review-box .row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.review-box .infos {
+    padding-left: 10px;
+}
+
+.review-box .infos .username {
+    font-weight: bold;
+    color: #5d5d5d;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.review-box .infos .stars {
+    color: #fac311;
+    font-size: 14px;
+}
+
+.review-box .infos .stars .svg-inline--fa:not(:last-of-type) {
+    margin-right: 2.5px;
+}
+
+.review-box p {
+    font-size: 15px;
+    color: #545454;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}

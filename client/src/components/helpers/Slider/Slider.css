@@ -1,0 +1,125 @@
+.slider {
+    background-image: url("../../../images/header2.jpg");
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.slider .overlay {
+    height: 100%;
+    background-color: rgba(47, 72, 88, 0.6);
+}
+
+.slider .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider .header h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 45px;
+}
+
+.slider .header p {
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+
+.slider .header form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider .header form input {
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    outline: none;
+    color: #282940;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.slider .header form button {
+    width: 20%;
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 15px 10px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.slider .header form button:hover {
+    background-color: #2f4858;
+}
+
+@media (max-width: 575px) {
+    .slider .header {
+        padding: 0 15px;
+    }
+    .slider .header h1 {
+        margin-top: 80px;
+        font-size: 30px;
+    }
+
+    .slider .header p {
+        margin-bottom: 50px;
+        letter-spacing: 1.5px;
+        font-size: 16px;
+    }
+
+    .slider .header form input {
+        font-size: 16px;
+    }
+
+    .slider .header form button {
+        width: 40%;
+
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .slider .header {
+        padding: 0 15px;
+    }
+    .slider .header h1 {
+        margin-top: 80px;
+        font-size: 30px;
+    }
+
+    .slider .header p {
+        margin-bottom: 50px;
+        letter-spacing: 1.5px;
+        font-size: 16px;
+    }
+
+    .slider .header form input {
+        font-size: 16px;
+    }
+
+    .slider .header form button {
+        width: 40%;
+
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+}

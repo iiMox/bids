@@ -1,0 +1,139 @@
+.offre-vertical {
+    background-color: #f7f7f7;
+    color: #2f4858;
+    border-radius: 15px;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+}
+
+.offre-vertical .employeur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2f4858;
+    padding: 10px;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.offre-vertical .employeur img {
+    margin-bottom: 10px;
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+}
+
+.offre-vertical .employeur span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.offre-vertical .employeur span a {
+    color: #fff;
+}
+
+.offre-vertical .employeur span a:hover {
+    text-decoration: none;
+}
+
+.offre-vertical .details {
+    padding: 10px 20px;
+}
+
+.offre-vertical .details h3 {
+    letter-spacing: 1.1px;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.offre-vertical .details hr {
+    background-color: #ff8c00;
+    width: 100%;
+}
+
+.offre-vertical .details p {
+    letter-spacing: 1px;
+    /* line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 100px; */
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    line-height: 1.5em; /* fallback */
+    max-height: 6em;
+    overflow: hidden;
+}
+
+.offre-vertical .details .bottom {
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.offre-vertical .details .bottom .infos {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 12%;
+}
+
+.offre-vertical .details .bottom .infos span {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.offre-vertical .details .bottom .infos span:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+.offre-vertical .details .bottom .infos span .svg-inline--fa {
+    margin-right: 10px;
+    color: #ff8c00;
+    width: 15px;
+}
+
+.offre-vertical .details button {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    padding: 5px 0;
+    border-radius: 5px;
+    margin-left: 25%;
+    letter-spacing: 1px;
+    width: 50%;
+    font-size: 15px;
+}
+
+@media (max-width: 575px) {
+    .offre-vertical .details .bottom .infos span {
+        font-size: 14px;
+    }
+    .offre-vertical .details .bottom button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .offre-vertical .details .bottom .infos span {
+        font-size: 14px;
+    }
+    .offre-vertical .details .bottom button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .offre-vertical .details .bottom .infos span {
+        margin-right: 18px;
+    }
+}

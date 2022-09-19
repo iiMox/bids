@@ -1,0 +1,75 @@
+.offers-page nav {
+    background-color: #2f4858;
+    position: static;
+}
+
+.offers-page .content {
+    padding: 40px 0;
+    color: #2f4858;
+}
+
+.offers-page .content h2 {
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.offers-page .content form {
+    margin: 20px 0 60px;
+}
+
+.offers-page .content form input {
+    width: 80%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #2f4858;
+    letter-spacing: 1px;
+}
+
+.offers-page .content form button {
+    width: 20%;
+    padding: 11px 20px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: bold;
+}
+
+.offers-page .content .offre {
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 575px) {
+    .offers-page .content .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .offers-page .content form {
+        font-size: 15px;
+    }
+
+    .offers-page .content form input {
+        width: 70%;
+    }
+    .offers-page .content form button {
+        width: 30%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .offers-page .content form {
+        font-size: 15px;
+    }
+
+    .offers-page .content form input {
+        width: 70%;
+    }
+    .offers-page .content form button {
+        width: 30%;
+    }
+}

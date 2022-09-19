@@ -1,0 +1,23 @@
+.edu-box {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.edu-box .title {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2f4858;
+}
+
+.edu-box .institution {
+    color: #ccc;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 17px;
+}
+
+.edu-box .dates {
+    color: #ff8c00;
+    font-weight: bold;
+}
